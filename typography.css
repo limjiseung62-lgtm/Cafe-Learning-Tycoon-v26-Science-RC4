@@ -1,0 +1,24 @@
+@font-face{font-family:'Cafe Display';src:url('assets/fonts/Jua-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Cafe Information';src:url('assets/fonts/NanumGothic-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Cafe Information';src:url('assets/fonts/NanumGothic-Bold.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
+:root{--font-information:'Cafe Information','Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif;--font-display:'Cafe Display',var(--font-information);font-family:var(--font-information);font-weight:400;font-synthesis:none}
+button,input,select{font-family:var(--font-information)}
+.brand h1,.welcome-card h2,.mode-card strong,#cafe-name,.results>h2,.results>h3,.investment-card h2,.investment-card h3,#investment-panel .problem-head h2,#celebration h2,#celebration h3,.unlock-preview>span,.primary,.vip-arrival:after{font-family:var(--font-display);font-weight:400;letter-spacing:.02em;line-height:1.35}
+.brand h1{font-size:24px;letter-spacing:.035em;line-height:1.2;text-shadow:0 1px 1px #33271966}
+#app.in-session .brand h1{font-size:21px}
+.welcome-card h2{font-size:clamp(30px,2.8vw,38px);line-height:1.3;letter-spacing:.015em}
+.mode-card strong{font-size:24px;margin-bottom:7px}.mode-card span,.welcome-card p{font-family:var(--font-information);font-size:13px;line-height:1.75;letter-spacing:0}
+.primary{font-size:20px}#make{font-size:19px;white-space:nowrap;line-height:1.35}
+.results>h2{font-size:34px}.results>h3{font-size:24px}.investment-card h2{font-size:24px}.investment-card h3{font-size:18px;line-height:1.45;margin-bottom:8px}
+#investment-panel .problem-head h2{font-size:24px}.unlock-preview>span{font-size:17px}#celebration h2{font-size:36px}.vip-arrival:after{font-size:16px}
+.hud strong,.money-card,.investment-money,.stock strong,.result-grid strong,.menu-investments .investment-card p,.save-preview{font-family:var(--font-information);font-variant-numeric:tabular-nums;letter-spacing:0}
+.hud strong{font-size:15px;font-weight:700;line-height:1.35}.hud span{font-size:10px;line-height:1.35}.result-grid strong{font-weight:700;line-height:1.5}
+.investment-card p{font-size:12px;line-height:1.7}.investment-money{font-size:13px;line-height:1.6}
+.problem-panel,.problem-panel h2,.problem-panel button,.problem-panel label,.problem-panel input,.problem-panel .feedback strong{font-family:var(--font-information);letter-spacing:0}
+.problem-panel h2{font-size:23px;font-weight:700;line-height:1.6;word-break:keep-all;overflow-wrap:break-word;margin:14px 0 18px}
+.problem-panel button{font-weight:700;font-size:16px;line-height:1.5}.problem-panel .choices button{font-size:18px;min-height:52px}
+.problem-panel .feedback p{font-size:15px;line-height:1.75}.problem-panel .feedback strong{font-size:17px;font-weight:700;line-height:1.6}.problem-panel .eyebrow,.problem-panel .hint{font-size:12px;line-height:1.65;letter-spacing:0}.problem-panel input{font-size:18px;line-height:1.5}
+@media(max-width:1000px){.brand h1{font-size:21px}#app.in-session .brand h1{font-size:18px}.hud strong,.hud .level-card strong{font-size:13px}.hud span{font-size:9px}.welcome-card h2{font-size:30px}.mode-card strong{font-size:23px}}
+@media(max-width:700px){.brand h1,#app.in-session .brand h1{font-size:19px}.welcome-card h2{font-size:29px}.mode-card strong{font-size:22px}.mode-card span{font-size:12px}.primary{font-size:19px}#make{font-size:17px}.hud strong,.hud .level-card strong{font-size:12px}.hud span{font-size:9px}.problem-panel h2{font-size:21px;line-height:1.6}.problem-panel .choices button{font-size:17px}.investment-card h3{font-size:17px}.results>h2{font-size:30px}}
+
+.primary[data-buy]{font-family:var(--font-information);font-weight:700;font-size:14px;letter-spacing:0;line-height:1.5}

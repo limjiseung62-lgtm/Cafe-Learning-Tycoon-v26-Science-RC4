@@ -1,0 +1,3242 @@
+{
+  "schemaVersion": "science-review-relations/1",
+  "packId": "qb-science-g4-s2-u2-ecosystems",
+  "version": "0.1.3",
+  "policy": {
+    "sameConcept": "same skill only; not automatically equivalent",
+    "equivalent": "same skill, structure, cognitive steps and difficulty; actual conditions differ",
+    "reinforcement": "same concept, different task; not automatically a twin",
+    "masteryCheck": "different task/context; human educational review pending",
+    "normalToReviewGap": {
+      "min": 3,
+      "max": 5
+    },
+    "reviewToMasteryGap": {
+      "min": 6,
+      "max": 10
+    },
+    "foodPolicy": "first-answer reward only; consumer must enforce root/record idempotency",
+    "scheduleOwner": "cafe-consumer-followup; not implemented by this static pack"
+  },
+  "questions": {
+    "SCI-G4S2U2-components-classify-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-classify-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-classify-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-classify-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-correct-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-correct-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-3",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-correct-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-components-correct-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4",
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-components-correct-1",
+        "SCI-G4S2U2-components-correct-2",
+        "SCI-G4S2U2-components-correct-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-components-classify-1",
+        "SCI-G4S2U2-components-classify-2",
+        "SCI-G4S2U2-components-classify-3",
+        "SCI-G4S2U2-components-classify-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-relate-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-relate-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-relate-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-relate-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-plan-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-plan-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-3",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-plan-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-ecosystem-plan-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4",
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-ecosystem-plan-1",
+        "SCI-G4S2U2-ecosystem-plan-2",
+        "SCI-G4S2U2-ecosystem-plan-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-ecosystem-relate-1",
+        "SCI-G4S2U2-ecosystem-relate-2",
+        "SCI-G4S2U2-ecosystem-relate-3",
+        "SCI-G4S2U2-ecosystem-relate-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-role-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-role-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-role-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-role-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-error-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-error-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-3",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-error-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-producer-error-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4",
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-producer-error-1",
+        "SCI-G4S2U2-producer-error-2",
+        "SCI-G4S2U2-producer-error-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-producer-role-1",
+        "SCI-G4S2U2-producer-role-2",
+        "SCI-G4S2U2-producer-role-3",
+        "SCI-G4S2U2-producer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-role-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-role-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-role-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-role-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-compare-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-compare-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-3",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-compare-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-consumer-compare-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4",
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-consumer-compare-1",
+        "SCI-G4S2U2-consumer-compare-2",
+        "SCI-G4S2U2-consumer-compare-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-consumer-role-1",
+        "SCI-G4S2U2-consumer-role-2",
+        "SCI-G4S2U2-consumer-role-3",
+        "SCI-G4S2U2-consumer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-role-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-role-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-role-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-role-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-evidence-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-evidence-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-3",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-evidence-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-decomposer-evidence-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4",
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-decomposer-evidence-1",
+        "SCI-G4S2U2-decomposer-evidence-2",
+        "SCI-G4S2U2-decomposer-evidence-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-decomposer-role-1",
+        "SCI-G4S2U2-decomposer-role-2",
+        "SCI-G4S2U2-decomposer-role-3",
+        "SCI-G4S2U2-decomposer-role-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-arrow-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-arrow-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-arrow-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-arrow-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-path-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-path-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-path-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-chain-path-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-food-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-food-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-food-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-food-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-alternative-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-alternative-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-alternative-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-web-alternative-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-class-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-class-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-class-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-class-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-path-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-path-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-3",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-path-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-pollution-path-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4",
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-pollution-path-1",
+        "SCI-G4S2U2-pollution-path-2",
+        "SCI-G4S2U2-pollution-path-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-pollution-class-1",
+        "SCI-G4S2U2-pollution-class-2",
+        "SCI-G4S2U2-pollution-class-3",
+        "SCI-G4S2U2-pollution-class-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-read-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-read-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-read-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-read-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-limit-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-limit-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-3",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-limit-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-evidence-limit-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4",
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-evidence-limit-1",
+        "SCI-G4S2U2-evidence-limit-2",
+        "SCI-G4S2U2-evidence-limit-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-evidence-read-1",
+        "SCI-G4S2U2-evidence-read-2",
+        "SCI-G4S2U2-evidence-read-3",
+        "SCI-G4S2U2-evidence-read-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-action-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-action-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-action-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-action-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-check-1": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-check-2": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-check-3": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-G4S2U2-conservation-check-4": {
+      "sameConcept": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3"
+      ],
+      "equivalent": [
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "masteryCheck": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4"
+      ],
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-model-compare-1": {
+      "sameConcept": [
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-model-compare-2": {
+      "sameConcept": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-3",
+        "SCI-COV13-model-compare-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-model-compare-3": {
+      "sameConcept": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-model-compare-4": {
+      "sameConcept": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-model-compare-1",
+        "SCI-COV13-model-compare-2",
+        "SCI-COV13-model-compare-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-chains-merge-1": {
+      "sameConcept": [
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-chains-merge-2": {
+      "sameConcept": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-3",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-chains-merge-3": {
+      "sameConcept": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-chains-merge-4": {
+      "sameConcept": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-chains-merge-1",
+        "SCI-COV13-chains-merge-2",
+        "SCI-COV13-chains-merge-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-population-limits-1": {
+      "sameConcept": [
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-population-limits-2": {
+      "sameConcept": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-3",
+        "SCI-COV13-population-limits-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-population-limits-3": {
+      "sameConcept": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-population-limits-4": {
+      "sameConcept": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-chain-arrow-1",
+        "SCI-G4S2U2-chain-arrow-2",
+        "SCI-G4S2U2-chain-arrow-3",
+        "SCI-G4S2U2-chain-arrow-4",
+        "SCI-G4S2U2-chain-path-1",
+        "SCI-G4S2U2-chain-path-2",
+        "SCI-G4S2U2-chain-path-3",
+        "SCI-G4S2U2-chain-path-4",
+        "SCI-G4S2U2-web-food-1",
+        "SCI-G4S2U2-web-food-2",
+        "SCI-G4S2U2-web-food-3",
+        "SCI-G4S2U2-web-food-4",
+        "SCI-G4S2U2-web-alternative-1",
+        "SCI-G4S2U2-web-alternative-2",
+        "SCI-G4S2U2-web-alternative-3",
+        "SCI-G4S2U2-web-alternative-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-population-limits-1",
+        "SCI-COV13-population-limits-2",
+        "SCI-COV13-population-limits-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-bird-pattern-1": {
+      "sameConcept": [
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-bird-pattern-2": {
+      "sameConcept": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-3",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-bird-pattern-3": {
+      "sameConcept": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-bird-pattern-4": {
+      "sameConcept": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-bird-pattern-1",
+        "SCI-COV13-bird-pattern-2",
+        "SCI-COV13-bird-pattern-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-protect-reason-1": {
+      "sameConcept": [
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-protect-reason-2": {
+      "sameConcept": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-3",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-protect-reason-3": {
+      "sameConcept": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-protect-reason-4": {
+      "sameConcept": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-protect-reason-1",
+        "SCI-COV13-protect-reason-2",
+        "SCI-COV13-protect-reason-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-community-evidence-1": {
+      "sameConcept": [
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-community-evidence-2": {
+      "sameConcept": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-3",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-community-evidence-3": {
+      "sameConcept": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "equivalent": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-4"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    },
+    "SCI-COV13-community-evidence-4": {
+      "sameConcept": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3"
+      ],
+      "equivalent": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3"
+      ],
+      "reinforcement": [
+        "SCI-G4S2U2-conservation-action-1",
+        "SCI-G4S2U2-conservation-action-2",
+        "SCI-G4S2U2-conservation-action-3",
+        "SCI-G4S2U2-conservation-action-4",
+        "SCI-G4S2U2-conservation-check-1",
+        "SCI-G4S2U2-conservation-check-2",
+        "SCI-G4S2U2-conservation-check-3",
+        "SCI-G4S2U2-conservation-check-4"
+      ],
+      "masteryCheck": [
+        "SCI-COV13-community-evidence-1",
+        "SCI-COV13-community-evidence-2",
+        "SCI-COV13-community-evidence-3"
+      ],
+      "masteryScope": "same learning element and structure, different context/conditions; exclude base and all IDs used in current review; one correct response is not proof of full mastery",
+      "approvedStudentCandidates": 3
+    }
+  },
+  "reviewGroupByQuestion": {
+    "SCI-G4S2U2-components-classify-1": "SCI-F-components-classify",
+    "SCI-G4S2U2-components-classify-2": "SCI-F-components-classify",
+    "SCI-G4S2U2-components-classify-3": "SCI-F-components-classify",
+    "SCI-G4S2U2-components-classify-4": "SCI-F-components-classify",
+    "SCI-G4S2U2-components-correct-1": "SCI-F-components-correct",
+    "SCI-G4S2U2-components-correct-2": "SCI-F-components-correct",
+    "SCI-G4S2U2-components-correct-3": "SCI-F-components-correct",
+    "SCI-G4S2U2-components-correct-4": "SCI-F-components-correct",
+    "SCI-G4S2U2-ecosystem-relate-1": "SCI-F-ecosystem-relate",
+    "SCI-G4S2U2-ecosystem-relate-2": "SCI-F-ecosystem-relate",
+    "SCI-G4S2U2-ecosystem-relate-3": "SCI-F-ecosystem-relate",
+    "SCI-G4S2U2-ecosystem-relate-4": "SCI-F-ecosystem-relate",
+    "SCI-G4S2U2-ecosystem-plan-1": "SCI-F-ecosystem-plan",
+    "SCI-G4S2U2-ecosystem-plan-2": "SCI-F-ecosystem-plan",
+    "SCI-G4S2U2-ecosystem-plan-3": "SCI-F-ecosystem-plan",
+    "SCI-G4S2U2-ecosystem-plan-4": "SCI-F-ecosystem-plan",
+    "SCI-G4S2U2-producer-role-1": "SCI-F-producer-role",
+    "SCI-G4S2U2-producer-role-2": "SCI-F-producer-role",
+    "SCI-G4S2U2-producer-role-3": "SCI-F-producer-role",
+    "SCI-G4S2U2-producer-role-4": "SCI-F-producer-role",
+    "SCI-G4S2U2-producer-error-1": "SCI-F-producer-error",
+    "SCI-G4S2U2-producer-error-2": "SCI-F-producer-error",
+    "SCI-G4S2U2-producer-error-3": "SCI-F-producer-error",
+    "SCI-G4S2U2-producer-error-4": "SCI-F-producer-error",
+    "SCI-G4S2U2-consumer-role-1": "SCI-F-consumer-role",
+    "SCI-G4S2U2-consumer-role-2": "SCI-F-consumer-role",
+    "SCI-G4S2U2-consumer-role-3": "SCI-F-consumer-role",
+    "SCI-G4S2U2-consumer-role-4": "SCI-F-consumer-role",
+    "SCI-G4S2U2-consumer-compare-1": "SCI-F-consumer-compare",
+    "SCI-G4S2U2-consumer-compare-2": "SCI-F-consumer-compare",
+    "SCI-G4S2U2-consumer-compare-3": "SCI-F-consumer-compare",
+    "SCI-G4S2U2-consumer-compare-4": "SCI-F-consumer-compare",
+    "SCI-G4S2U2-decomposer-role-1": "SCI-F-decomposer-role",
+    "SCI-G4S2U2-decomposer-role-2": "SCI-F-decomposer-role",
+    "SCI-G4S2U2-decomposer-role-3": "SCI-F-decomposer-role",
+    "SCI-G4S2U2-decomposer-role-4": "SCI-F-decomposer-role",
+    "SCI-G4S2U2-decomposer-evidence-1": "SCI-F-decomposer-evidence",
+    "SCI-G4S2U2-decomposer-evidence-2": "SCI-F-decomposer-evidence",
+    "SCI-G4S2U2-decomposer-evidence-3": "SCI-F-decomposer-evidence",
+    "SCI-G4S2U2-decomposer-evidence-4": "SCI-F-decomposer-evidence",
+    "SCI-G4S2U2-chain-arrow-1": "SCI-F-chain-arrow",
+    "SCI-G4S2U2-chain-arrow-2": "SCI-F-chain-arrow",
+    "SCI-G4S2U2-chain-arrow-3": "SCI-F-chain-arrow",
+    "SCI-G4S2U2-chain-arrow-4": "SCI-F-chain-arrow",
+    "SCI-G4S2U2-chain-path-1": "SCI-F-chain-path",
+    "SCI-G4S2U2-chain-path-2": "SCI-F-chain-path",
+    "SCI-G4S2U2-chain-path-3": "SCI-F-chain-path",
+    "SCI-G4S2U2-chain-path-4": "SCI-F-chain-path",
+    "SCI-G4S2U2-web-food-1": "SCI-F-web-food",
+    "SCI-G4S2U2-web-food-2": "SCI-F-web-food",
+    "SCI-G4S2U2-web-food-3": "SCI-F-web-food",
+    "SCI-G4S2U2-web-food-4": "SCI-F-web-food",
+    "SCI-G4S2U2-web-alternative-1": "SCI-F-web-alternative",
+    "SCI-G4S2U2-web-alternative-2": "SCI-F-web-alternative",
+    "SCI-G4S2U2-web-alternative-3": "SCI-F-web-alternative",
+    "SCI-G4S2U2-web-alternative-4": "SCI-F-web-alternative",
+    "SCI-G4S2U2-pollution-class-1": "SCI-F-pollution-class",
+    "SCI-G4S2U2-pollution-class-2": "SCI-F-pollution-class",
+    "SCI-G4S2U2-pollution-class-3": "SCI-F-pollution-class",
+    "SCI-G4S2U2-pollution-class-4": "SCI-F-pollution-class",
+    "SCI-G4S2U2-pollution-path-1": "SCI-F-pollution-path",
+    "SCI-G4S2U2-pollution-path-2": "SCI-F-pollution-path",
+    "SCI-G4S2U2-pollution-path-3": "SCI-F-pollution-path",
+    "SCI-G4S2U2-pollution-path-4": "SCI-F-pollution-path",
+    "SCI-G4S2U2-evidence-read-1": "SCI-F-evidence-read",
+    "SCI-G4S2U2-evidence-read-2": "SCI-F-evidence-read",
+    "SCI-G4S2U2-evidence-read-3": "SCI-F-evidence-read",
+    "SCI-G4S2U2-evidence-read-4": "SCI-F-evidence-read",
+    "SCI-G4S2U2-evidence-limit-1": "SCI-F-evidence-limit",
+    "SCI-G4S2U2-evidence-limit-2": "SCI-F-evidence-limit",
+    "SCI-G4S2U2-evidence-limit-3": "SCI-F-evidence-limit",
+    "SCI-G4S2U2-evidence-limit-4": "SCI-F-evidence-limit",
+    "SCI-G4S2U2-conservation-action-1": "SCI-F-conservation-action",
+    "SCI-G4S2U2-conservation-action-2": "SCI-F-conservation-action",
+    "SCI-G4S2U2-conservation-action-3": "SCI-F-conservation-action",
+    "SCI-G4S2U2-conservation-action-4": "SCI-F-conservation-action",
+    "SCI-G4S2U2-conservation-check-1": "SCI-F-conservation-check",
+    "SCI-G4S2U2-conservation-check-2": "SCI-F-conservation-check",
+    "SCI-G4S2U2-conservation-check-3": "SCI-F-conservation-check",
+    "SCI-G4S2U2-conservation-check-4": "SCI-F-conservation-check",
+    "SCI-COV13-model-compare-1": "SCI-F-COV13-model-compare",
+    "SCI-COV13-model-compare-2": "SCI-F-COV13-model-compare",
+    "SCI-COV13-model-compare-3": "SCI-F-COV13-model-compare",
+    "SCI-COV13-model-compare-4": "SCI-F-COV13-model-compare",
+    "SCI-COV13-chains-merge-1": "SCI-F-COV13-chains-merge",
+    "SCI-COV13-chains-merge-2": "SCI-F-COV13-chains-merge",
+    "SCI-COV13-chains-merge-3": "SCI-F-COV13-chains-merge",
+    "SCI-COV13-chains-merge-4": "SCI-F-COV13-chains-merge",
+    "SCI-COV13-population-limits-1": "SCI-F-COV13-population-limits",
+    "SCI-COV13-population-limits-2": "SCI-F-COV13-population-limits",
+    "SCI-COV13-population-limits-3": "SCI-F-COV13-population-limits",
+    "SCI-COV13-population-limits-4": "SCI-F-COV13-population-limits",
+    "SCI-COV13-bird-pattern-1": "SCI-F-COV13-bird-pattern",
+    "SCI-COV13-bird-pattern-2": "SCI-F-COV13-bird-pattern",
+    "SCI-COV13-bird-pattern-3": "SCI-F-COV13-bird-pattern",
+    "SCI-COV13-bird-pattern-4": "SCI-F-COV13-bird-pattern",
+    "SCI-COV13-protect-reason-1": "SCI-F-COV13-protect-reason",
+    "SCI-COV13-protect-reason-2": "SCI-F-COV13-protect-reason",
+    "SCI-COV13-protect-reason-3": "SCI-F-COV13-protect-reason",
+    "SCI-COV13-protect-reason-4": "SCI-F-COV13-protect-reason",
+    "SCI-COV13-community-evidence-1": "SCI-F-COV13-community-evidence",
+    "SCI-COV13-community-evidence-2": "SCI-F-COV13-community-evidence",
+    "SCI-COV13-community-evidence-3": "SCI-F-COV13-community-evidence",
+    "SCI-COV13-community-evidence-4": "SCI-F-COV13-community-evidence"
+  },
+  "masteryApproval": "user-approved exact relation candidates; masteryCheckEligible is not proof of student mastery"
+}

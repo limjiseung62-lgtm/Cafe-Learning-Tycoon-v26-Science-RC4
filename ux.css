@@ -1,0 +1,79 @@
+button,input,select{touch-action:manipulation}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #659053;outline-offset:3px}.sound-settings,.game-help{min-height:44px;min-width:44px}.game-help{position:fixed;right:75px;top:10px;z-index:180;font-size:12px;padding:7px 10px;background:#fff3d8;color:#694d33;border:1px solid #bea47a}.sound-panel #sound-close{min-width:44px;min-height:44px}.sound-panel input[type=range]{min-height:44px}.ux-dialog{position:fixed;inset:0;z-index:600;background:#241b1688;display:grid;place-items:center;padding:16px}.ux-dialog>div{width:min(460px,100%);max-height:90dvh;overflow:auto;background:#fff6e6;border:2px solid #b8996e;border-radius:20px;padding:24px;box-shadow:0 10px 40px #241b1666;color:#634e36}.ux-dialog h2{font-family:var(--font-display);font-weight:400;font-size:29px;margin:8px 0 16px}.ux-dialog p,.ux-dialog li{line-height:1.8}.ux-dialog ol{padding-left:24px}.ux-dialog li{margin-bottom:10px}.ux-dialog button{min-height:44px;margin:6px 4px 0 0}.first-guide{position:fixed;top:105px;left:50%;translate:-50% 0;z-index:300;max-width:440px;width:calc(100vw - 36px);padding:12px 16px;background:#fff5de;border:2px solid #aa9569;border-radius:14px;box-shadow:0 4px 16px #3a2b2940;color:#614f33}.first-guide p{margin:0 0 4px;font-weight:700;font-size:14px;line-height:1.6}.first-guide button{min-height:44px;font-size:12px}.guide-highlight{outline:3px solid #e7c978;outline-offset:3px}.study-content{background:#f1ead6;border-radius:10px;padding:12px;line-height:1.6;margin:12px 0}.study-content strong{display:block;margin-top:4px;font-size:17px}.welcome-card .primary{min-height:52px}.pack-retry{min-height:44px}.mode-status button{min-height:44px;font-size:12px;padding:6px 10px}.result-grid strong{font-size:19px}.results{max-height:calc(100dvh - 135px);overflow:auto}.results .result-cafe{font-family:var(--font-display);font-size:24px;line-height:1.5}.result-grid>div{padding:12px}.asset-unavailable{background-image:none!important;background-color:#f0dec0!important;border:1px solid #ac946c;border-radius:10px;display:inline-grid!important;place-items:center;overflow:hidden;color:#755638}.asset-unavailable:after{content:attr(data-fallback-label);font-size:12px;font-family:var(--font-information)}.investment-tabs{overflow-x:auto;flex-wrap:nowrap}.investment-tabs button{min-height:44px;flex-shrink:0}.investment-panel button,.problem-panel button{min-height:44px;min-width:44px}.investment-card button{width:100%}.afford.insufficient{color:#8a5a42}.scene-actions button{min-height:46px;min-width:46px}#timer{font-variant-numeric:tabular-nums}#timer.ending-time{color:#974e36}#playing .mode-status{gap:5px;flex-wrap:wrap}.sound-panel label{min-height:44px}.mode-confirm button{min-height:44px}.growth-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.growth-summary>div{padding:10px;background:#f4ead4;border-radius:10px}.growth-summary strong{display:block}@media(max-width:700px){.first-guide{top:12px;left:12px;translate:none;max-width:calc(100vw - 130px);width:auto;font-size:12px}.first-guide p{font-size:12px}.first-guide button{padding:4px 7px}.game-help{right:68px;padding:6px;font-size:11px}.sound-settings{right:8px}.mode-status{left:12px;right:12px;top:65px!important}.scene-actions button:nth-child(n+3){display:flex}.scene-actions{bottom:145px;display:grid;grid-template-columns:repeat(2,46px)}.scene-actions button{width:46px;height:46px;font-size:8px}.nav-symbol{width:16px;height:16px}.lesson-card{right:116px}.welcome-card{max-height:67%;bottom:4%;overflow:auto}.welcome-card h2{font-size:28px}.results{max-height:calc(100dvh - 100px);padding:14px}.brand+.results{margin-top:85px}.result-grid strong{font-size:17px}.investment-tabs button{padding:8px 10px}.ux-dialog>div{padding:18px}.ux-dialog h2{font-size:25px}.first-guide:has(+*){max-width:calc(100vw - 140px)}}@media(max-width:400px){.mode-card strong{font-size:19px}.welcome-card{padding:16px}.welcome-card h2{font-size:25px}.mode-cards{gap:8px}.problem-panel h2{font-size:19px}.mode-status{font-size:10px}.mode-status button{font-size:11px}.growth-summary{grid-template-columns:1fr 1fr}.ux-dialog>div{padding:16px}}
+/* v1.1: controls occupy document rows; the cafe is an unobstructed scene. */
+#app.in-session .brand{display:none}
+#app.in-session .shell{width:min(1120px,calc(100% - 16px));margin:8px auto}
+#app.in-session #playing{aspect-ratio:auto;min-height:0;margin:0;overflow:visible;background:#f5ead5;border:1px solid #b99d72;border-radius:14px;padding:8px;box-shadow:0 8px 35px #0003}
+.session-tools{display:flex;align-items:center;gap:6px;min-height:44px}
+#app:not(.in-session) .session-tools{height:0;min-height:0}
+#app:not(.in-session) .session-tools>span{display:none}
+#app:not(.in-session) .session-tools .game-help,#app:not(.in-session) .session-tools .sound-settings{position:fixed;z-index:180}
+.session-tools>span{flex:1;font-family:var(--font-display);font-size:20px;color:#fff1d6}
+.session-tools .game-help,.session-tools .sound-settings{position:static;min-height:44px;font-size:12px;z-index:auto}
+#playing .hud{position:static;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:4px 0 8px;background:#fff7e7;box-shadow:none}
+#playing .hud>div,#playing .hud .money-card,#playing .hud .level-card{display:block;min-width:0;padding:6px 8px}
+#playing .hud strong,#playing .hud .level-card strong{font-size:14px;line-height:1.4}
+#playing .game-layout{position:relative;inset:auto;display:grid;grid-template-columns:1fr;gap:8px}
+#playing .cafe{position:relative;inset:auto;width:100%;aspect-ratio:3/2;order:1;border-radius:10px;background-size:100% 100%}
+#playing .room-name{top:8px;left:8px;font-size:11px;padding:3px 8px;display:block}
+#playing .lesson-card{position:static;inset:auto;order:3;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:0;width:auto}
+#playing .lesson-card .primary{flex:1;justify-content:center;min-height:48px;font-size:18px}
+#serve{min-height:48px;font-size:15px;flex:1}
+#service-status{flex-basis:100%;font-size:11px;text-align:center;color:#765e42}
+#playing .pantry{position:relative;inset:auto;transform:none;order:2;display:block;width:100%;max-width:none;height:auto;padding:8px;background:#fff7e6;border:1px solid #d8bf99;box-shadow:none;min-width:0}
+#playing .pantry-head{display:flex;gap:5px;margin-bottom:5px}
+#playing .pantry-head h2{font-size:12px;font-weight:700}
+#playing .pantry-head #warehouse-caption{display:none}
+#playing #stock-count{font-size:10px;margin-left:auto}
+#playing #stocks{display:flex;overflow-x:auto;overflow-y:hidden;height:84px;gap:6px;scrollbar-width:thin;scroll-snap-type:x proximity}
+#playing .stock{width:88px;min-width:88px;display:flex;flex-direction:column;gap:2px;border:1px solid #d1c5a8;background:#faf7e9;border-radius:8px;padding:3px;scroll-snap-align:start}
+#playing .stock .food-art{width:32px;height:31px}
+#playing .stock b{font-size:11px;max-width:82px;line-height:1.3}
+#playing .stock strong{font-size:10px;white-space:nowrap;line-height:1.5}
+#playing .stock[data-status="0"]{background:#f2e3d9;border-color:#bf977f}
+#playing .stock[data-status="부족"]{background:#fff0c9;border-color:#c4a65c}
+#playing .stock[data-status="MAX"]{background:#e2ead6;border-color:#8da17c}
+#playing .stock-received{animation:stock-received 1s ease-out}
+#playing .production{position:static;transform:none;white-space:normal;text-align:center;font-size:11px;line-height:22px;margin-top:4px}
+#playing .scene-actions{position:static;inset:auto;order:4;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+#playing .scene-actions button,#playing .scene-actions button:nth-child(n+3){display:flex;flex-direction:row;align-items:center;justify-content:center;gap:5px;width:auto;height:auto;min-height:44px;font-size:12px;padding:6px;box-shadow:none}
+#playing .nav-symbol{width:18px;height:18px;line-height:18px}
+#playing .mode-status{position:static;inset:auto!important;order:6;display:flex;flex-wrap:wrap;gap:6px;background:transparent;padding:0;font-size:11px}
+#playing .mode-status #save-status{flex:1}
+#playing .mode-status button{min-height:44px;font-size:11px}
+#playing #live-stats{position:static;order:7;font-size:10px;color:#80694d;text-shadow:none;text-align:center}
+#playing .item-effects{position:static;order:5;font-size:11px}
+#playing .item-effects:empty{display:none}
+#playing .first-guide{position:static;inset:auto;translate:none;transform:none;width:auto;max-width:none;order:0;padding:6px 10px;box-shadow:none;display:flex;align-items:center;flex-wrap:wrap;gap:4px;border-width:1px}
+#playing .first-guide p{flex:1;min-width:180px;font-size:12px;margin:0}
+#playing .first-guide button{min-height:44px;padding:6px;font-size:11px}
+.production-receipt{display:flex;gap:6px;overflow-x:auto;padding:10px 0;max-width:100%}
+.production-receipt>div{min-width:88px;display:flex;flex-direction:column;align-items:center;padding:6px;border:1px solid #a9bd94;border-radius:8px;background:#f9fff0}
+.production-receipt .food-art{width:42px;height:42px}.production-receipt b{font-size:11px;white-space:nowrap}.production-receipt strong{color:#486a39}.production-receipt small{font-size:10px}
+.food-transfer{position:fixed;z-index:650;pointer-events:none}.food-transfer .food-art{width:40px;height:40px}
+#return-cafe{width:100%;min-height:48px}
+.problem-panel{width:min(480px,calc(100vw - 24px));max-height:calc(100dvh - 24px);left:12px;bottom:12px;overscroll-behavior:contain}
+.investment-panel{width:min(560px,calc(100vw - 24px));max-width:none;padding:12px;top:12px;bottom:12px;right:12px}
+.investment-content{overscroll-behavior:contain}.investment-content .menu-investments{grid-template-columns:1fr;gap:6px}
+.investment-content .investment-card{margin:0 0 6px;padding:10px}
+.investment-content .investment-card h3{font-size:17px;margin:0 0 4px;line-height:1.3}
+.investment-content .investment-card p{font-size:12px;line-height:1.5;margin:4px 0}
+.investment-content .menu-row{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:8px;align-items:center}
+.investment-content .menu-row .food-art{width:40px;height:40px}
+.investment-content .menu-row h3{font-size:15px}.investment-content .menu-row h3 small{font-size:11px;color:#987037}
+.investment-content .menu-row p{font-size:11px}
+.investment-content .menu-row button{width:auto;font-size:11px;padding:6px;min-height:44px}
+.investment-content .staff-portrait{width:42px;max-height:70px;float:left;margin:0 10px 5px 0}
+.investment-content .afford{padding:4px 6px}.investment-message:empty{display:none}
+.investment-content .staff-row{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:4px 8px;align-items:center}
+.investment-content .staff-row .staff-portrait{grid-column:1;grid-row:1 / span 3;float:none;margin:0}
+.investment-content .staff-row h3,.investment-content .staff-row p{grid-column:2;margin:0}
+.investment-content .staff-row button{grid-column:3;grid-row:1 / span 3;width:auto;max-width:110px;font-size:11px;padding:6px}
+.investment-content .staff-row .afford,.investment-content .item-card .afford{display:none}
+.investment-content .item-card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px}
+.investment-content .item-card h3,.investment-content .item-card p,.investment-content .item-card label{grid-column:1;margin:0}
+.investment-content .item-card button{grid-column:2;grid-row:1 / span 3;width:auto;max-width:100px;align-self:center;padding:6px;font-size:11px}
+.feel-float{z-index:190}
+@media(min-width:701px){#app.in-session .shell{width:min(1120px,calc(100% - 16px),max(600px,calc((100dvh - 450px)*1.5)))}}
+.investment-money{margin:6px 0}.investment-panel>.hint{margin:4px 0}
+@keyframes stock-received{35%{background:#d3ebac;box-shadow:inset 0 0 0 2px #7c9b56}}
+@media(max-width:700px){body:has(#app.in-session){display:block}.session-tools>span{font-size:18px}#app.in-session .shell{width:calc(100% - 12px);margin:6px auto}#playing .hud>div,#playing .hud .money-card,#playing .hud .level-card{padding:5px}#playing .hud strong,#playing .hud .level-card strong{font-size:12px}#playing .cafe{aspect-ratio:3/2}#playing .spatial-guest{width:calc(6.8% * var(--actor-scale) * var(--pose-size,1))}#playing .worker{width:7%}#playing .worker small{display:block;font-size:7px;bottom:-12px}#playing .worker b{bottom:-5px;font-size:7px}.investment-panel{inset:8px;width:auto}.problem-panel{inset:auto 8px 8px;width:auto;max-height:calc(100dvh - 16px);padding:12px}.problem-panel h2{font-size:20px}.problem-panel .feedback{padding:10px}.problem-panel .feedback p{font-size:14px}.guest-detail{bottom:12px}.investment-content .menu-row{gap:6px;grid-template-columns:36px minmax(0,1fr) auto}.investment-content .menu-row .food-art{width:34px;height:36px}.investment-content .menu-row h3{font-size:14px}.investment-content .menu-row button{font-size:10px}}

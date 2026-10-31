@@ -1,0 +1,2 @@
+export function missionGoal(a, m) { return [m.correct ? (m.id === 'gourmet' ? '도전 정답 ' : '정답 ') + Math.min(a.correct, m.correct) + '/' + m.correct : '', m.served ? '서빙 ' + Math.min(a.served, m.served) + '/' + m.served : '', m.streak ? '연속 정답 ' + Math.min(a.streak, m.streak) + '/' + m.streak : '', m.id === 'rescue' ? '품절 메뉴 채우기' : ''].filter(Boolean).join(' · '); }
+export function noticeTone(text) { return text.includes('성공') ? 'success' : text.includes('아쉬') || text.includes('다음 기회') || text.includes('종료됐') ? 'failed' : 'arrival'; }

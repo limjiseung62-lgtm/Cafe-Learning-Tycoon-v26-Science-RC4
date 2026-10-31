@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "cafe-static-publication/1",
+  "packId": "qb-science-g4-s2-u2-ecosystems",
+  "version": "0.1.3",
+  "questionCount": 104,
+  "source": {
+    "owner": "common-question-bank",
+    "version": "science-publication/0.1.3-user-approved",
+    "sha256": "8eb334fb3c1e3e09dc8cb0611e6e245df66d6b8d23525ceba1155ece41329568"
+  },
+  "artifact": {
+    "file": "science-pack.json",
+    "bytes": 850463,
+    "sha256": "edc88815e37327e5740bcb1f75a6a67674b6d8e98af4f8e6d557f6c235f4c9fb"
+  },
+  "descriptor": {
+    "packId": "qb-science-g4-s2-u2-ecosystems",
+    "title": "과학4학년 생물과 환경 · 승인 복습팩",
+    "subject": "과학",
+    "grade": 4,
+    "semester": 2,
+    "unit": "생물과 환경",
+    "file": "science-pack.json",
+    "enabledForSelection": true
+  },
+  "release": {
+    "operational": true,
+    "rightsCleared": true,
+    "teacherReviewCleared": true,
+    "curriculumCleared": true,
+    "reviewProviderRegistered": true,
+    "evidenceRefs": [
+      "teacher-approval.json",
+      "supply-authorization.json",
+      "supply-policy.json",
+      "question-provenance.json",
+      "curriculum-evidence.json",
+      "review-provider-registration.json",
+      "validation-report.md"
+    ],
+    "holds": []
+  },
+  "relationPolicy": "bank-approved",
+  "curriculumScope": "official3–4band + reviewed internal science:G4; publisher-specific placement not asserted",
+  "publicationDoesNotDeployGame": true,
+  "legacyProductionReadyChanged": false
+}

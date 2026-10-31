@@ -1,0 +1,6 @@
+import { balance, cafeLevels, warehouseLevels, staffBalance } from './config.js';
+import { phase4Balance } from './phase4Config.js';
+import { longGrowthLevels } from './longGrowthConfig.js';
+export const classProgressiveConfig = { priceMultiplier: 4, spawnSeconds: 2.5, expansion: [0, 800, 1800, 3500, 6500, 10000, 15000, 22000, 30000, 40000, 52000, 65000, 80000, 95000, 115000] };
+const all = [...cafeLevels, ...longGrowthLevels.map(c => ({ ...cafeLevels[5], level: c.level, name: c.name, maxCustomers: 8, theme: c.level >= 11 ? 'loft-bakery' : 'garden' }))];
+export const progressiveClassBalance = { cafes: all.map((c, i) => ({ ...structuredClone(c), expansionCost: classProgressiveConfig.expansion[i], order: { minQuantity: 1, maxQuantity: 1, maxTypes: 1 } })), warehouses: warehouseLevels.map(w => ({ ...w, cost: Math.round(w.cost * .35) })), staff: { ...structuredClone(staffBalance), limits: [1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5], hireCosts: [500, 2000, 5000, 8000, 12000], upgradeCosts: [400, 1400, 4000, 9000] }, menuMultipliers: [...balance.menuMultipliers], menuUpgradeMultipliers: balance.menuUpgradeCostMultipliers.map(n => n * .4), special: structuredClone(phase4Balance), initial: { cafeLevel: 1, money: 0, warehouseLevel: 1 } };

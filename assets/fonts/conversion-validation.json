@@ -1,0 +1,23 @@
+{
+  "conversion": [
+    {
+      "file": "Jua-Regular.ttf",
+      "sameOutlinesAndWidths": true,
+      "sameCmap": true,
+      "sameNames": true
+    },
+    {
+      "file": "NanumGothic-Bold.ttf",
+      "sameOutlinesAndWidths": true,
+      "sameCmap": true,
+      "sameNames": true
+    },
+    {
+      "file": "NanumGothic-Regular.ttf",
+      "sameOutlinesAndWidths": true,
+      "sameCmap": true,
+      "sameNames": true
+    }
+  ],
+  "displayMissing": []
+}

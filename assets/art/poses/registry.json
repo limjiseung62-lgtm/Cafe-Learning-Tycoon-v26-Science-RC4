@@ -1,0 +1,119 @@
+{
+  "anchorMeaning": "Pelvis underside contacts chair seat; source-pixel coordinates",
+  "poses": {
+    "student": {
+      "left": {
+        "file": "assets/art/poses/customer_student_sit_left.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          213,
+          120,
+          645,
+          1334
+        ],
+        "anchorX": 620,
+        "anchorY": 1070
+      },
+      "right": {
+        "file": "assets/art/poses/customer_student_sit_right.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          175,
+          109,
+          656,
+          1350
+        ],
+        "anchorX": 386,
+        "anchorY": 1070
+      }
+    },
+    "grandma": {
+      "left": {
+        "file": "assets/art/poses/customer_grandma_sit_left.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          193,
+          73,
+          688,
+          1416
+        ],
+        "anchorX": 595,
+        "anchorY": 1160
+      },
+      "right": {
+        "file": "assets/art/poses/customer_grandma_sit_right.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          149,
+          38,
+          752,
+          1449
+        ],
+        "anchorX": 397,
+        "anchorY": 1160
+      }
+    },
+    "reader": {
+      "left": {
+        "file": "assets/art/poses/customer_reader_sit_left.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          219,
+          48,
+          662,
+          1434
+        ],
+        "anchorX": 635,
+        "anchorY": 1095
+      },
+      "right": {
+        "file": "assets/art/poses/customer_reader_sit_right.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          177,
+          25,
+          708,
+          1459
+        ],
+        "anchorX": 384,
+        "anchorY": 1095
+      }
+    },
+    "walker": {
+      "left": {
+        "file": "assets/art/poses/customer_walker_sit_left.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          217,
+          123,
+          674,
+          1304
+        ],
+        "anchorX": 605,
+        "anchorY": 1080,
+        "displayScale": 0.9
+      },
+      "right": {
+        "file": "assets/art/poses/customer_walker_sit_right.png",
+        "width": 1024,
+        "height": 1536,
+        "box": [
+          114,
+          99,
+          711,
+          1347
+        ],
+        "anchorX": 408,
+        "anchorY": 1080,
+        "displayScale": 0.9
+      }
+    }
+  }
+}

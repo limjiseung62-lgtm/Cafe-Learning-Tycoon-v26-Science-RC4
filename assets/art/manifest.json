@@ -1,0 +1,272 @@
+{
+  "owner": {
+    "sheet": "characters",
+    "box": [
+      22,
+      76,
+      228,
+      429
+    ]
+  },
+  "staff-1": {
+    "sheet": "characters",
+    "box": [
+      274,
+      100,
+      234,
+      407
+    ]
+  },
+  "staff-2": {
+    "sheet": "characters",
+    "box": [
+      532,
+      70,
+      221,
+      434
+    ]
+  },
+  "staff-3": {
+    "sheet": "characters",
+    "box": [
+      782,
+      79,
+      241,
+      430
+    ]
+  },
+  "staff-4": {
+    "sheet": "characters",
+    "box": [
+      1045,
+      104,
+      232,
+      401
+    ]
+  },
+  "staff-5": {
+    "sheet": "characters",
+    "box": [
+      1310,
+      98,
+      203,
+      406
+    ]
+  },
+  "student": {
+    "sheet": "characters",
+    "box": [
+      23,
+      576,
+      228,
+      404
+    ]
+  },
+  "grandma": {
+    "sheet": "characters",
+    "box": [
+      304,
+      580,
+      183,
+      391
+    ]
+  },
+  "reader": {
+    "sheet": "characters",
+    "box": [
+      543,
+      551,
+      201,
+      431
+    ]
+  },
+  "walker": {
+    "sheet": "characters",
+    "box": [
+      771,
+      583,
+      247,
+      398
+    ]
+  },
+  "table": {
+    "sheet": "characters",
+    "box": [
+      1032,
+      656,
+      242,
+      291
+    ]
+  },
+  "premium-table": {
+    "sheet": "characters",
+    "box": [
+      1283,
+      658,
+      250,
+      316
+    ]
+  },
+  "coffee": {
+    "sheet": "food",
+    "box": [
+      12,
+      128,
+      244,
+      205
+    ]
+  },
+  "cookie": {
+    "sheet": "food",
+    "box": [
+      256,
+      160,
+      256,
+      171
+    ]
+  },
+  "cake": {
+    "sheet": "food",
+    "box": [
+      512,
+      94,
+      256,
+      240
+    ]
+  },
+  "strawberry-latte": {
+    "sheet": "food",
+    "box": [
+      768,
+      43,
+      221,
+      294
+    ]
+  },
+  "croissant": {
+    "sheet": "food",
+    "box": [
+      1042,
+      151,
+      238,
+      184
+    ]
+  },
+  "icecream": {
+    "sheet": "food",
+    "box": [
+      1280,
+      40,
+      221,
+      300
+    ]
+  },
+  "waffle": {
+    "sheet": "food",
+    "box": [
+      0,
+      408,
+      256,
+      275
+    ]
+  },
+  "cupcake": {
+    "sheet": "food",
+    "box": [
+      256,
+      395,
+      230,
+      288
+    ]
+  },
+  "donut": {
+    "sheet": "food",
+    "box": [
+      525,
+      428,
+      239,
+      197
+    ]
+  },
+  "sandwich": {
+    "sheet": "food",
+    "box": [
+      781,
+      380,
+      243,
+      303
+    ]
+  },
+  "pizza": {
+    "sheet": "food",
+    "box": [
+      1024,
+      431,
+      256,
+      194
+    ]
+  },
+  "bread": {
+    "sheet": "food",
+    "box": [
+      1280,
+      380,
+      256,
+      303
+    ]
+  },
+  "bingsu": {
+    "sheet": "food",
+    "box": [
+      7,
+      683,
+      249,
+      291
+    ]
+  },
+  "ade": {
+    "sheet": "food",
+    "box": [
+      256,
+      683,
+      230,
+      293
+    ]
+  },
+  "pudding": {
+    "sheet": "food",
+    "box": [
+      512,
+      751,
+      256,
+      220
+    ]
+  },
+  "parfait": {
+    "sheet": "food",
+    "box": [
+      768,
+      683,
+      256,
+      301
+    ]
+  },
+  "pancake": {
+    "sheet": "food",
+    "box": [
+      1024,
+      738,
+      256,
+      237
+    ]
+  },
+  "special-cake": {
+    "sheet": "food",
+    "box": [
+      1280,
+      683,
+      249,
+      283
+    ]
+  }
+}

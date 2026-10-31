@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "8704d17686e350f2c90ab936b18405426582b6c0",
+  "version": "2.6.0-rc.4-science",
+  "status": "student-test-candidate",
+  "storagePrefix": "cafe-v26-science/",
+  "publicDeploymentApproved": false,
+  "testDeploymentApproved": true,
+  "externalDeploymentExecuted": true,
+  "sourceCandidate": "8704d17686e350f2c90ab936b18405426582b6c0",
+  "testUrl": "https://limjiseung62-lgtm.github.io/Cafe-Learning-Tycoon-v26-Science-RC4/"
+}

@@ -1,0 +1,5 @@
+import { progressiveClassBalance } from './classProgressiveBalance.js';
+import { classMatchBalance, cafeGrowthBalance } from './modeBalance.js';
+export const modePolicies = { CLASS_MATCH: { mode: 'CLASS_MATCH', label: '수업 게임', economyProfile: 'phase-3.5-phase4-D', start: 'equal-initial-state', end: 'shared-deadline', persistence: 'none', sessionSeconds: 600, autosaveSeconds: 0, protectActiveExit: true, economy: classMatchBalance }, CAFE_GROWTH: { mode: 'CAFE_GROWTH', label: '내 카페', economyProfile: 'growth-v1', start: 'saved-state', end: 'timed-business', persistence: 'saved-cafe', sessionSeconds: 900, autosaveSeconds: 30, protectActiveExit: false, economy: cafeGrowthBalance } };
+export function policyFor(mode = 'CLASS_MATCH', progressive = false) { return progressive && mode === 'CLASS_MATCH' ? { ...modePolicies.CLASS_MATCH, label: '15분 수업 게임', economyProfile: 'v26-class', sessionSeconds: 900, economy: progressiveClassBalance } : modePolicies[mode]; }
+export const supportedSessions = { CLASS_MATCH: { implemented: true, policy: modePolicies.CLASS_MATCH }, CAFE_GROWTH: { implemented: true, policy: modePolicies.CAFE_GROWTH } };
